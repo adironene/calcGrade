@@ -1,0 +1,40 @@
+
+Go to the Start and type command prompt. Once the option is displayed, make sure that you right click it, and run it as an administrator. You need admin rights, in order to run the .exe file that is generated after compilation.
+Once command prompt (cmd) opens,
+
+type : cd desktop
+
+hit return
+
+type : touch birthday.cpp
+
+hit return
+
+a file should appear on ur desktop. 
+Open birthday.cpp
+Go to my code birthday.cpp on github, copy and past my code on the file on your desktop
+save it (It should be commans s for Macs and control s for windows)
+
+go back to terminals
+
+type : cd desktop
+
+hit return
+
+Then type:
+
+g++ -std=c++11 -Wall birthday.cpp -o birthday.exe (for windows)
+OR
+g++ birthday.cpp (for Macs)
+
+hit return
+
+This will create a file named birthday.exe in your Documents folder. Since you have admin rights, you can simply run:
+
+type:
+
+birthday.exe (for windows)
+OR
+./a.out (for Macs)
+
+and you should be able to run the program from there
